@@ -427,20 +427,27 @@ th {
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
 /* Header Navigation Bar*/
 .Header_Display 
 {
   width: 960px;
   margin: 0 auto;
-  height: 50px;
-
+  height: 70px;
 }
 
 
 img
 {
   margin-top: 20px;    
-  padding-left: 80px;
   float: left;
 }
 
@@ -474,9 +481,48 @@ a
 
 .Middle_Section
 {
-  background: url('bground.png');
-  background-size: cover;
-  height: 45.938rem;
-  background-position: center bottom;
-  background-repeat: no-repeat;
+   background: url('bground.png');
+   background-size: cover;
+   height: 40.938rem;
+   background-position: center bottom;
+   background-repeat: no-repeat;
+}
+
+.Image_Text
+{
+   font-family: 'Roboto', sans-serif;
+   color: white;
+   letter-spacing: 0.03em;
+   text-align: center;
+   padding-top: 15rem;
+   line-height: 1.2rem;
+}
+
+.Image_Text h1
+{
+  font-size: 3.125rem;
+  font-weight: 300;
+}
+
+.Image_Text h3
+{
+  font-size: 1.563rem;
+  font-weight: 300;
+}
+
+.Button_Prop
+{
+  height: 50px;
+  width: 130px;
+  background: #FF5930;
+  border: 2px solid rgba(33, 68, 72, 0.59);
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+.Button_Align
+{
+  width: 140px;
+  margin: 0 Auto;
 }
