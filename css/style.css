@@ -445,13 +445,13 @@ html {
 }
 
 
-img
+.image > img
 {
   margin-top: 20px;    
   float: left;
 }
 
-li
+.Li_List > li
 {
   list-style: none;
   float: left;
@@ -462,7 +462,7 @@ li
   letter-spacing: 0.03em;
 }
 
-ul
+.Header_Display > ul
 {
   float: right;
 }
@@ -525,4 +525,42 @@ a
 {
   width: 140px;
   margin: 0 Auto;
+}
+
+.Bottom_Section
+{
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+
+.Align_Bottom h1
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.125rem;
+  font-weight: 200;
+  letter-spacing: 0.03em;
+  padding-top: 2em;
+}
+
+.Bottom_Section .Align_Bottom {
+    margin-top: 4.875rem;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+}
+
+.Align_Bottom > ul
+{
+
+    float:left;
+    list-style: none;
+    letter-spacing: 0.07em;
+    padding-left: 220px;
+}
+
+.devices > li
+{
+  float: left;
+  padding-left: 80px;
 }
