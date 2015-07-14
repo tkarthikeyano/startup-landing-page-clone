@@ -564,3 +564,54 @@ a
   float: left;
   padding-left: 80px;
 }
+
+.social
+{
+      background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+
+footer
+{
+  width: 906px;
+  margin: 0 auto;
+}
+
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 0.313rem 0;
+}
+
+.social .icons > li
+{
+  border-radius: 1.25rem;
+    list-style: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+    }
+
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}    
